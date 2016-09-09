@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Music Player</title>
+		<link rel="stylesheet" href="assets/css/normalize.css">
+		<link rel="stylesheet" href="assets/css/font-awesome.css">
+		<link rel="stylesheet" href="assets/css/app.css">
+		
+		<script type="text/javascript" src="../node_modules/angular/angular.js"></script>
+		<script type="text/javascript" src="../node_modules/angular-route/angular-route.js"></script>
+	</head>
+
+	<body class="page" ng-app="musicApp">
+		<header class="header">
+			<a href="#"><i class="fa fa-expand"></i></a>
+			<h1><i class="fa fa-music"></i> Music Player</h1>
+			<a href="#"><i class="fa fa-list"></i></a>
+		</header>
+		<section class="main" ng-view></section>
+	</body>
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="controllers/home.js"></script>
+	<script type="text/javascript" src="controllers/list.js"></script>
+	<script type="text/javascript" src="controllers/item.js"></script>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "angular-music",
+  "version": "0.0.1",
+  "description": "angular",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MovMo/angular-music.git"
+  },
+  "keywords": [
+    "angular",
+    "angular-route",
+    "node"
+  ],
+  "author": "mov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MovMo/angular-music/issues"
+  },
+  "homepage": "https://github.com/MovMo/angular-music#readme",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "express": "^4.14.0"
+  }
+}

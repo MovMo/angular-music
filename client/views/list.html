@@ -1,0 +1,15 @@
+<div class="list">
+	<ol>
+		<li ng-repeat="item in songs">
+			<a>
+				<span class="num">{{('0000' + ($index + 1)).slice(-3)}}</span>
+				<div class="info">
+					<h3 class="title">{{item.title}}</h3>
+					<span class="artist">{{item.artist}}</span>
+				</div>
+				<span class="duration">{{item.duration}}</span>
+				<div class="photo"><img src="{{item.imgUrl}}" alt="{{item.artist}}"></div>
+			</a>
+		</li>
+	</ol>
+</div>
